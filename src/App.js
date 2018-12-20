@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import PokeFetcher from "./components/PokeFetcher";
+import ConvertedFetcher from "./components/ConvertedFetcher";
 import "./App.css";
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<PokeFetcher />
+				<ConvertedFetcher />
 			</div>
 		);
 	}

@@ -23,6 +23,11 @@ export default class PokeFetcher extends Component {
 			return <img src={card.imageUrl} />;
 		});
 
-		return <div>{pokeCards}</div>;
+		return (
+			<div>
+				<h1>ClassFetcher</h1>
+				{pokeCards}
+			</div>
+		);
 	}
 }
